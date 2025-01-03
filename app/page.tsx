@@ -6,10 +6,11 @@ import Fourth from "./component/fourth/Fourth";
 import Fifth from "./component/fifth/Fifth";
 import Sixth from './component/sixth/Sixth'
 import Seventh from "./component/seven/Seventh";
+import Eight from "./component/eight/Eight";
 
 export default function Home() {
   return (
-    <div>
+    <div className="flex flex-col h-auto w-auto mx-auto">
      <First/>
      <Second/>
      <Third/>
@@ -17,6 +18,7 @@ export default function Home() {
      <Fifth/>
      <Sixth/>
      <Seventh/>
+     <Eight/>
     </div>
   )
 };

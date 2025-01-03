@@ -7,7 +7,7 @@ import { FaExpandArrowsAlt } from "react-icons/fa";
 
 const Third: React.FC = () => {
   return (
-    <section className="bg-gray-50 py-20 px-6">
+    <section className="bg-gray-50 py-20 px-6 ml-10">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left Section */}
         <div>
@@ -18,7 +18,7 @@ const Third: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Fast & Free Shipping */}
             <div className="flex flex-col  space-y-4">
-              <div className="p-3 text-5xl">
+              <div className="p-3 text-4xl">
                <CiDeliveryTruck />
               </div>
               <div>
@@ -30,7 +30,7 @@ const Third: React.FC = () => {
             </div>
             {/* Easy to Shop */}
             <div className="flex flex-col  space-y-4">
-              <div className="p-3 text-5xl">
+              <div className="p-3 text-4xl">
                 <IoBagOutline />
               </div>
               <div>
@@ -42,7 +42,7 @@ const Third: React.FC = () => {
             </div>
             {/* 24/7 Support */}
             <div className="flex flex-col  space-y-4">
-              <div className="p-3 text-5xl">
+              <div className="p-3 text-4xl">
                 <LuShieldCheck />
               </div>
               <div>
@@ -54,7 +54,7 @@ const Third: React.FC = () => {
             </div>
             {/* Hassle-Free Returns */}
             <div className="flex flex-col  space-y-4">
-              <div className="p-3 text-5xl">
+              <div className="p-3 text-4xl">
                 <FaExpandArrowsAlt />
               </div>
               <div>
